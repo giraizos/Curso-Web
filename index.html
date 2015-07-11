@@ -3,12 +3,25 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Curso maquetación</title>
+	<style type="text/css">
+		*{
+			border: 0;
+			margin:	0;
+			padding: 0;
+		}
+		#contenedor-general{
+			background-color: #d8d8d8;
+			margin: 0 auto;
+			padding: 10px;
+			width: 960px;
+		}
+	</style>
 </head>
 
 <body>
-	<div id="contenedor-general"></div>
+	<div id="contenedor-general">
 	<!-- Comentario  -->
-		<div id="header">
+		<div id="header" class="verde">
 			<p>Titulo header</p>
 		</div>
 		
@@ -17,22 +30,22 @@
 		</div>
 		
 		<div id="cuerpo-pagina">
-			<div id="article">
+			<div id="article" class="verde">
 				<p> Articulo</p>
 				<div id="section">
 					<p>Seccion</p>
 				</div>
 			</div>
-			<div id="aside">
+			<div id="aside" class="verde">
 				<p>aside</p>
 			</div>
 		</div>	
 
-		<div id="footer">
+		<div id="footer" class="verde">
 			<p>Pie de página</p>
 			<img src="fallout.png" alt="Fallout Boy" title="FALLOUT">
 		</div>
-	
+	</div>
 
 </body>
 </html>
