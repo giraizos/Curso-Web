@@ -4,17 +4,51 @@
 	<meta charset="utf-8"/>
 	<title>Curso maquetación</title>
 	<style type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Railway:400,300,600,700,800' rel='stylesheet' type='text/css'>
+   	<link href="css/style.css" rel="stylesheet">
 		*{
 			border: 0;
 			margin:	0;
 			padding: 0;
 		}
+
+		body{
+			font-size: 16px;
+			text-align: center;
+
+		}
+		div{
+			border-radius: 5px;
+
+		}
+		#article{
+			width: 65%;
+		}
+		#aside{
+			width: 30%
+		}
+		#article, #aside{
+			display: inline-block;
+			vertical-align: top;
+		}
 		#contenedor-general{
 			background-color: #d8d8d8;
+			color: #eee;
 			margin: 0 auto;
-			padding: 10px;
-			width: 960px;
+			padding: 1em;
+			width: 90%;
 		}
+		#section{
+			background-color: rgba(250,250,250,0.4);
+		}
+
+		.verde{
+			background-color: green;
+			margin: 15px 0 15px;
+			padding: 10px;
+		}
+		
+
 	</style>
 </head>
 
@@ -25,7 +59,7 @@
 			<p>Titulo header</p>
 		</div>
 		
-		<div id="nav">
+		<div id="nav" class="verde">
 			<p>Navegación</p>
 		</div>
 		
